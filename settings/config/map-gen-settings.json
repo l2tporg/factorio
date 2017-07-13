@@ -1,0 +1,24 @@
+{
+  "_comment": "Sizes can be specified as none, very-low, low, normal, high, very-high",
+  "_commnet_references": "https://wiki.factorio.com/World_generator",
+
+  "terrain_segmentation": "normal",
+  "water": "normal",
+  "width": 0,
+  "height": 0,
+  "starting_area": "normal",
+  "peaceful_mode": false,
+  "autoplace_controls":
+  {
+    "coal": {"frequency": "normal", "size": "normal", "richness": "very-high"},
+    "copper-ore": {"frequency": "normal", "size": "normal", "richness": "very-high"},
+    "crude-oil": {"frequency": "normal", "size": "normal", "richness": "very-high"},
+    "enemy-base": {"frequency": "normal", "size": "normal", "richness": "very-high"},
+    "iron-ore": {"frequency": "normal", "size": "normal", "richness": "very-high"},
+    "stone": {"frequency": "normal", "size": "normal", "richness": "very-high"},
+    "uranium-ore": {"frequency": "normal", "size": "normal", "richness": "very-high"}
+  },
+
+  "_comment_seed": "Use null for a random seed, number for a specific seed.",
+  "seed": null
+}

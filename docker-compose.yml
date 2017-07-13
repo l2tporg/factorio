@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+
+  factorio:
+    image: dtandersen/factorio
+    ports:
+     - 34197:34197/udp
+     - 27015:21015/tcp
+    volumes:
+#     - /tmp/factorio:/home/pncity/docker/factorio/factorio
+     - /home/pncity/docker/factorio/settings:/tmp/factorio
+    restart: always
